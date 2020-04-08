@@ -15,7 +15,8 @@ dependencies:
 - fastprogress>=0.1.22
 - pillow
 - python>=3.6
-- pip
+- pip:
+  -"--editable=git+https://github.com/fastai/fastai2.git"
 - scikit-learn
 - scipy
 - spacy
